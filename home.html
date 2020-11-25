@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>.Kayley.</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Open+Sans&display=swap" rel="stylesheet">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+  
+        
+    <div id="navbar">
+  <div id="navbar-right">
+    <a class="active" href="#home">Home</a>
+    <a href="about.html">About</a>
+    <a href="something.html">My Work</a>
+    <a href="contact.html">Contact</a>
+    
+  </div>
+</div>
+
+<div style="margin-top:100px;padding:15px 15px 500px;font-size:30px">
+  
+<br>  
+<br> 
+<br> 
+<h1>. Kayley  Chery .</h1>
+<center><h2>"an artist, activist, coder, and leader"</h2></center>
+<p>  This is a portfolio website I made during my quarantined summer of 2020. Feel free to look at the different tabs to learn more about my story.</p>    
+    
+<!--       Made with <a href="https://glitch.com">Glitch</a>! -->
+       
+        <br>
+  </div>
+
+<script>
+<!-- When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size -->
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 50) {
+    document.getElementById("navbar").style.padding = "20px 10px";
+    document.getElementById("logo").style.fontSize = "25px";
+  } else {
+    document.getElementById("navbar").style.padding = "15px 10px";
+    document.getElementById("logo").style.fontSize = "30px";
+    
+  }
+}
+    </script>
+<!-- Button -->
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+<!--     <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div> <script src="https://button.glitch.me/button.js" defer></script> -->
+    
+
+    
+  </body>
+</html>
+
