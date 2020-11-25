@@ -3,6 +3,10 @@
 
 html{
   background-color: #edcff1;
+  width:100%;
+  min-width:1000px;
+  height:auto;
+
     
 }
 body {
