@@ -2,11 +2,7 @@
 
 
 html{
-  background-color: #edcff1;
-  width:100%;
-  min-width:1000px;
-  height:auto;
-
+  
     
 }
 body {
@@ -49,8 +45,12 @@ p {
 }
 
 img {
-  border-radius: 20%;
-  object-fit: cover;
+  
+}
+
+.logo{
+  height: 20%;
+  width: 20%;
 }
 
 #navbar {
