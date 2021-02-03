@@ -1,59 +1,142 @@
 /* CSS files add styling rules to your content */
+/* CSS files add styling rules to your content */
 
-
-html{
-  
-    
+html {
 }
 body {
-  font-family: font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 2em;
- 
-    
 }
 
 h1 {
-  font-style: italic;
-  color: #91599a;
-  font-family: 'Poppins', sans-serif
-  font-size: 800%;
+  color: #a2d072;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 600%;
   margin: 0em;
-  text-align: center
+  text-align: center;
 }
 
-h2{
-  font-style: italic;
-  color: #a275a9;
-  font-family: 'Poppins', sans-serif
-  font-size: 600%;
-  text-align: center
-  border: 2px #a275a9;
+h2 {
+  color: #d07273;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 200%;
+  text-align: center;
   border-radius: 5px;
 }
-h3{
+h3 {
   font-style: italic;
   color: #a275a9;
-  font-family: 'Poppins', sans-serif
+  font-family: "Poppins", sans-serif;
   font-size: 600%;
-  text-align: center
+  text-align: center;
   border: 2px #a275a9;
   border-radius: 5px;
 }
 p {
   color: #91599a;
-  font-family: 'Tenali Ramakrishna', sans-serif;
+  font-family: "Tenali Ramakrishna", sans-serif;
 }
 
 img {
-  
 }
 
-.logo{
+.logo {
   height: 20%;
   width: 20%;
 }
 
-#navbar {
+.logo-alternative {
+  height: 10%;
+  width: 10%;
+}
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  /*background-color: #2c949c;*/
+
+  border-radius: 30px;
+  text-color: #9f72d0;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 250%;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #9f72d0;
+  color: white;
+}
+
+/* Centered section inside the top navigation */
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Right-aligned section inside the top navigation */
+#nav {
+  display: table; /* centers modern browsers */
+  margin: 0 auto; /* centers modern browsers */
+  text-align: center; /* centers IE6/7 */
+}
+
+#nav ul {
+  list-style: none;
+  display: inline-block; /* IE6/7 haslayout trip-switch */
+}
+
+#nav ul {
+  display: inline; /* IE6/7 haslayout trip-switch, and IE6/7 only need ul to be display inline, yet does no harm to others */
+}
+
+#nav li {
+  display: inline;
+}
+
+#nav a {
+  float: left;
+  text-decoration: none;
+  padding: 0 30px; /* variable width */
+}
+
+/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+a.class1 {
+  color: #250081;
+}
+a.class1:link {
+  text-decoration: none;
+  color: #9f72d0;
+}
+a.class1:visited {
+  text-decoration: none;
+  color: #9f72d0;
+}
+a.class1:hover {
+  text-decoration: none;
+  color: #72d0ce;
+}
+a.class1:active {
+  text-decoration: none;
+  color: #9f72d0;
+}
+
+/* #navbar {
   overflow: hidden;
   background-color: rgba(145, 89, 154, 0.5);
   padding: 20px 10px;
@@ -115,7 +198,7 @@ img {
     float: none;
   }
  
-/*   
+  
   img {
   position: absolute;
   left: 0px;
@@ -128,7 +211,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-} 
+}
 
 /*  w3 schools*/
 /* Adobe color */
