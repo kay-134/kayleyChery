@@ -77,11 +77,6 @@ img {
   color: black;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #9f72d0;
-  color: white;
-}
 
 /* Centered section inside the top navigation */
 .topnav-centered a {
