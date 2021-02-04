@@ -48,7 +48,9 @@ img {
 .logo-alternative {
   height: 10%;
   width: 10%;
+  padding: 0 30px;
   float: left;
+
 }
 
 .topnav {
@@ -100,7 +102,8 @@ img {
 #nav a {
   float: left;
   text-decoration: none;
-  padding: 0 30px; /* variable width */
+
+   /* variable width */
 }
 
 /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
