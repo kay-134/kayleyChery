@@ -48,7 +48,7 @@ img {
 .logo-alternative {
   height: 10%;
   width: 10%;
-  text-align: left;
+  float: left;
 }
 
 .topnav {
