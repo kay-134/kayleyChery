@@ -65,7 +65,7 @@ img {
 .topnav a {
   float: left;
   text-align: center;
-  padding: 14px 16px;
+
   text-decoration: none;
   font-size: 250%;
 }
@@ -95,19 +95,6 @@ img {
   display: table; /* centers modern browsers */
   margin: 0 auto; /* centers modern browsers */
   text-align: center; /* centers IE6/7 */
-}
-
-#nav ul {
-  list-style: none;
-  display: inline-block; /* IE6/7 haslayout trip-switch */
-}
-
-#nav ul {
-  display: inline; /* IE6/7 haslayout trip-switch, and IE6/7 only need ul to be display inline, yet does no harm to others */
-}
-
-#nav li {
-  display: inline;
 }
 
 #nav a {
@@ -207,12 +194,7 @@ a.class1:active {
   z-index: -1;
 }
    */
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
+
 
 /*  w3 schools*/
 /* Adobe color */
