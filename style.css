@@ -133,6 +133,28 @@ a.class1:active {
   color: #9f72d0;
 }
 
+a.class2 {
+  background-color: #9f72d0;
+  border-radius: 10px;
+  padding:5px
+}
+a.class2:link {
+  text-decoration: none;
+  color: #72d0ce;
+}
+a.class2:visited {
+  text-decoration: none;
+  color: #72d0ce;
+}
+a.class2:hover {
+  text-decoration: none;
+  color: #72d0ce;
+
+}
+a.class2:active {
+  text-decoration: none;
+  color: #72d0ce;
+}
 /* #navbar {
   overflow: hidden;
   background-color: rgba(145, 89, 154, 0.5);
