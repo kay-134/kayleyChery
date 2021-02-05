@@ -74,6 +74,7 @@ img {
 /* Change the color of links on hover */
 .topnav a:hover {
   color: black;
+
 }
 
 /* Add a color to the active/current link */
@@ -119,7 +120,9 @@ a.class1:visited {
 }
 a.class1:hover {
   text-decoration: none;
+  cursor:pointer;
   color: #72d0ce;
+
 }
 a.class1:active {
   text-decoration: none;
