@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-  color: #a2d072;
+  
   font-family: "Big Shoulders Display", cursive;
   font-size: 600%;
   margin: 0em;
@@ -167,7 +167,55 @@ a.class2:active {
 }
 
 .home{
+  color:#7143F9
+}
+/*https://css-tricks.com/almanac/properties/f/flex-wrap/*/
 
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.nowrap  {
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.wrap    {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.wrap li {
+  background: gold;
+}
+
+.wrap-reverse         {
+  -webkit-flex-wrap: wrap-reverse;
+  flex-wrap: wrap-reverse;
+}
+.wrap-reverse li {
+  background: deepskyblue;
+}
+
+.flex-item {
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
 }
 /* #navbar {
   overflow: hidden;
