@@ -3,6 +3,7 @@
 
 html {
 }
+
 body {
   font-family: "Poppins", sans-serif;
   margin: 2em;
@@ -159,6 +160,9 @@ a.class2:active {
 
 .main-content{
 
+}
+
+.home{
 
 }
 /* #navbar {
