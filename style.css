@@ -83,6 +83,10 @@ img {
 
 }
 
+.home{
+  color: #72d0ce;
+}
+
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: #9f72d0;
