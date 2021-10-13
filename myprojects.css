@@ -1,0 +1,394 @@
+/* CSS files add styling rules to your content */
+/* CSS files add styling rules to your content */
+
+html {
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 600%;
+  margin: 0em;
+
+}
+
+h2 {
+  color: #d07273;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 200%;
+
+  border-radius: 5px;
+}
+h3 {
+  font-style: italic;
+  color: #a275a9;
+  font-family: "Poppins", sans-serif;
+  font-size: 600%;
+
+  border: 2px #a275a9;
+  border-radius: 5px;
+}
+p {
+  color: #91599a;
+  font-family: "Tenali Ramakrishna", sans-serif;
+}
+
+a {
+  border: 2px
+}
+
+img {
+}
+
+.logo {
+  height: 20%;
+  width: 20%;
+  cursor:pointer;
+}
+
+.logo-alternative {
+  height: 10%;
+  width: 10%;
+  padding: 0 10px;
+  float: left;
+
+}
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  /*background-color: #2c949c;*/
+  text-color: #9f72d0;
+  font-family: "Big Shoulders Display", cursive;
+  padding: 0 10px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  text-align: center;
+  margin: 3vw;
+  text-decoration: none;
+  font-size: 250%;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: black;
+
+}
+
+.home{
+  color: #91599a;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #9f72d0;
+  color: black;
+}
+
+/* Centered section inside the top navigation */
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Right-aligned section inside the top navigation */
+#nav {
+  display: table; /* centers modern browsers */
+  margin: 0 auto; /* centers modern browsers */
+  text-align: center; /* centers IE6/7 */
+}
+
+#nav a {
+  float: left;
+  text-decoration: none;
+
+   /* variable width */
+}
+
+/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+a.class1 {
+  color: #250081;
+}
+a.class1:link {
+  text-decoration: none;
+  color: #9f72d0;
+}
+a.class1:visited {
+  text-decoration: none;
+  color: #9f72d0;
+}
+a.class1:hover {
+  text-decoration: none;
+  cursor:pointer;
+  color: #72d0ce;
+
+}
+a.class1:active {
+  text-decoration: none;
+  color: #9f72d0;
+}
+
+a.class2 {
+  background-color: #9f72d0;
+  border-radius: 10px;
+  padding:5px
+}
+a.class2:link {
+  text-decoration: none;
+  color: #72d0ce;
+}
+a.class2:visited {
+  text-decoration: none;
+  color: #72d0ce;
+}
+a.class2:hover {
+  text-decoration: none;
+  color: #72d0ce;
+
+}
+a.class2:active {
+  text-decoration: none;
+  color: #72d0ce;
+}
+
+.main-content{
+
+}
+
+.home{
+  color:#7143F9
+}
+/*https://css-tricks.com/almanac/properties/f/flex-wrap/*/
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.nowrap  {
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.wrap    {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.wrap li {
+  background: gold;
+}
+
+.wrap-reverse         {
+  -webkit-flex-wrap: wrap-reverse;
+  flex-wrap: wrap-reverse;
+}
+.wrap-reverse li {
+  background: deepskyblue;
+}
+
+.flex-item {
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+$numDots: 20
+$parentWidthBase: 0.8
+$parentWidth: $parentWidthBase * 100vw
+$parentMaxWidth: 1000px
+$dotWidth: 25px
+$dotWidthSm: 17px
+$active: #2C3E50
+$inactive: #AEB6BF
+
+
+html, body
+	height: 100%
+body
+	font-family: 'Quicksand', sans-serif
+	font-weight: 500
+	color: #424949
+	background-color: #ECF0F1
+	padding: 0 25px
+	display: flex
+	flex-direction: column
+	position: relative
+h1
+	text-align: center
+	height: 38px
+	margin: 60px 0
+	span
+		white-space: nowrap
+.flex-parent
+	display: flex
+	flex-direction: column
+	justify-content: center
+	align-items: center
+	width: 100%
+	height: 100%
+.input-flex-container
+	display: flex
+	justify-content: space-around
+	align-items: center
+	width: $parentWidth
+	height: 100px
+	max-width: $parentMaxWidth
+	position: relative
+	z-index: 0
+.input
+	width: $dotWidth
+	height: $dotWidth
+	background-color: $active
+	position: relative
+	border-radius: 50%
+	&:hover
+		cursor: pointer
+	&::before, &::after
+		content: ''
+		display: block
+		position: absolute
+		z-index: -1
+		top: 50%
+		transform: translateY(-50%)
+		background-color: $active
+		width: $parentWidth / $numDots
+		height: 5px
+		max-width: $parentMaxWidth / $numDots
+	&::before
+		left: calc(#{-$parentWidth / $numDots} + #{$dotWidth / 2})
+	&::after
+		right: calc(#{-$parentWidth / $numDots} + #{$dotWidth / 2})
+	&.active
+		background-color: $active
+		&::before
+			background-color: $active
+		&::after
+			background-color: $inactive
+		span
+			font-weight: 700
+			&::before
+				font-size: 13px
+			&::after
+				font-size: 15px
+	&.active ~ .input
+		&, &::before, &::after
+			background-color: $inactive
+	span
+		width: 1px
+		height: 1px
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%, -50%)
+		visibility: hidden
+		&::before, &::after
+			visibility: visible
+			position: absolute
+			left: 50%
+		&::after
+			content: attr(data-year)
+			top: 25px
+			transform: translateX(-50%)
+			font-size: 14px
+		&::before
+			content: attr(data-info)
+			top: -65px
+			width: 70px
+			transform: translateX(-5px) rotateZ(-45deg)
+			font-size: 12px
+			text-indent: -10px
+.description-flex-container
+	width: $parentWidth
+	font-weight: 400
+	font-size: 22px
+	margin-top: 100px
+	max-width: $parentMaxWidth
+	p
+		margin-top: 0
+		display: none
+		&.active
+			display: block
+		
+	
+@media (min-width: $parentMaxWidth / $parentWidthBase)
+	.input::before
+		left: #{-($parentMaxWidth / $numDots) + ($dotWidth / 2)}
+	.input::after
+		right: #{-($parentMaxWidth / $numDots) + ($dotWidth / 2)}
+@media (max-width: 850px)
+	.input
+		width: $dotWidthSm
+		height: $dotWidthSm
+		&::before, &::after
+			height: 3px
+		&::before
+			left: calc(#{-$parentWidth / $numDots} + #{$dotWidthSm / 2})
+		&::after
+			right: calc(#{-$parentWidth / $numDots} + #{$dotWidthSm / 2})
+
+
+//MOBILE
+@media (max-width: 600px)
+	.flex-parent
+		justify-content: initial
+	.input-flex-container
+		flex-wrap: wrap
+		justify-content: center
+		width: 100%
+		height: auto
+		margin-top: 15vh
+	.input
+		width: 60px
+		height: 60px
+		margin: 0 10px 50px
+		background-color: $inactive
+		&::before, &::after
+			content: none
+		span
+			width: 100%
+			height: 100%
+			display: block
+			&::before
+				top: calc(100% + 5px)
+				transform: translateX(-50%)
+				text-indent: 0
+				text-align: center
+			&::after
+				top: 50%
+				transform: translate(-50%, -50%)
+				color: #ECF0F1
+	.description-flex-container
+		margin-top: 30px
+		text-align: center
+
+@media (max-width: 400px)
+	body
+		min-height: 950px /*just so our links won't get in the way of our content
+/*  w3 schools*/
+/* Adobe color */
