@@ -23,6 +23,19 @@ h1 span {
     white-space: nowrap;
 }
 
+.logo {
+    height: 20%;
+    width: 20%;
+    cursor: pointer;
+}
+
+.logo-alternative {
+    height: 10%;
+    width: 10%;
+    padding: 0 10px;
+    float: left;
+}
+
 .flex-parent {
     display: flex;
     flex-direction: column;
