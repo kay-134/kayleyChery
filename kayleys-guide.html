@@ -2,101 +2,67 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8">
+    <title>CodePen - responsive timeline v3</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="./style.css">
 
-    <title>.Kayley.</title>
-
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/timeline.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&display=swap" rel="stylesheet" />
-    <!-- import the webpage's javascript file -->
-    <script src="/myproducts.js" defer></script>
 </head>
 
 <body>
-    <div style="margin-top:100px;padding:15px 15px 500px;font-size:30px">
-
-        <center>
-            <img class="logo" border="#91599a" src="https://cdn.glitch.com/5197bf8a-8237-4829-b2ae-2a036e9b418a%2Fkayley.png?v=1612333905197" alt="Avatar" href="https://kayleychery.com/" />
-        </center>
-        <div class="home">
-            <div class="flex-container wrap">
-                <center>
-                    <h1 style="font-size: 5vw; "> Kayley's Resource Guide to Equitable Eduation </h1>
-                    <center>
-                        <h1 style="font-size: 3vw;">+ This is website that has everything I've learned about educational equity and ways you can strive for it in your own high school.</h1>
-                        <h1>Notable inventions, <span>1910–2000</span></h1>
-                        <div class="flex-parent">
-                            <div class="input-flex-container">
-                                <div class="input">
-                                    <span data-year="1910" data-info="headset"></span>
-                                </div>
-                                <div class="input">
-                                    <span data-year="1920" data-info="jungle gym"></span>
-                                </div>
-                                <div class="input active">
-                                    <span data-year="1930" data-info="chocolate chip cookie"></span>
-                                </div>
-                                <div class="input">
-                                    <span data-year="1940" data-info="Jeep"></span>
-                                </div>
-                                <div class="input">
-                                    <span data-year="1950" data-info="leaf blower"></span>
-                                </div>
-                                <div class="input">
-                                    <span data-year="1960" data-info="magnetic stripe card"></span>
-                                </div>
-                                <div class="input">
-                                    <span data-year="1970" data-info="wireless LAN"></span>
-                                </div>
-                                <div class="input">
-                                    <span data-year="1980" data-info="flash memory"></span>
-                                </div>
-                                <div class="input">
-                                    <span data-year="1990" data-info="World Wide Web"></span>
-                                </div>
-                                <div class="input">
-                                    <span data-year="2000" data-info="Google AdWords"></span>
-                                </div>
-                            </div>
-                            <div class="description-flex-container">
-                                <p>And future Call of Duty players would thank them.</p>
-                                <p>Because every kid should get to be Tarzan for a day.</p>
-                                <p class="active">And the world rejoiced.</p>
-                                <p>Because building roads is inconvenient.</p>
-                                <p>Ain’t nobody got time to rake.</p>
-                                <p>Because paper currency is for noobs.</p>
-                                <p>Nobody likes cords. Nobody.</p>
-                                <p>Brighter than glow memory.</p>
-                                <p>To capitalize on an as-yet nascent market for cat photos.</p>
-                                <p>Because organic search rankings take work.</p>
-                            </div>
-                        </div>
-
-                        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-                        <script src="./script.js"></script>
-
-
+    <!-- partial:index.partial.html -->
+    <h1>Notable inventions, <span>1910–2000</span></h1>
+    <div class="flex-parent">
+        <div class="input-flex-container">
+            <div class="input">
+                <span data-year="1910" data-info="headset"></span>
+            </div>
+            <div class="input">
+                <span data-year="1920" data-info="jungle gym"></span>
+            </div>
+            <div class="input active">
+                <span data-year="1930" data-info="chocolate chip cookie"></span>
+            </div>
+            <div class="input">
+                <span data-year="1940" data-info="Jeep"></span>
+            </div>
+            <div class="input">
+                <span data-year="1950" data-info="leaf blower"></span>
+            </div>
+            <div class="input">
+                <span data-year="1960" data-info="magnetic stripe card"></span>
+            </div>
+            <div class="input">
+                <span data-year="1970" data-info="wireless LAN"></span>
+            </div>
+            <div class="input">
+                <span data-year="1980" data-info="flash memory"></span>
+            </div>
+            <div class="input">
+                <span data-year="1990" data-info="World Wide Web"></span>
+            </div>
+            <div class="input">
+                <span data-year="2000" data-info="Google AdWords"></span>
             </div>
         </div>
+        <div class="description-flex-container">
+            <p>And future Call of Duty players would thank them.</p>
+            <p>Because every kid should get to be Tarzan for a day.</p>
+            <p class="active">And the world rejoiced.</p>
+            <p>Because building roads is inconvenient.</p>
+            <p>Ain’t nobody got time to rake.</p>
+            <p>Because paper currency is for noobs.</p>
+            <p>Nobody likes cords. Nobody.</p>
+            <p>Brighter than glow memory.</p>
+            <p>To capitalize on an as-yet nascent market for cat photos.</p>
+            <p>Because organic search rankings take work.</p>
+        </div>
+    </div>
 
-        <!--
--Kayley's Diary
--Questions to ask
--Data Anlysis
--Game Plan Strategy
--Looking for Allies
-  -Teacher Allies
-  -Organization Allies
--Self Education!
--Website Resource Hub
--Key terms to know
-
--->
-        <br/>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src="./script.js"></script>
 
 </body>
 
