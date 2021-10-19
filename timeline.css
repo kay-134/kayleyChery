@@ -23,6 +23,11 @@ h1 span {
     white-space: nowrap;
 }
 
+.timeline {
+    background-color: #62E3DE;
+    border-radius: 5px;
+}
+
 .logo {
     width: 20%;
     cursor: pointer;
