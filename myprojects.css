@@ -135,7 +135,7 @@ a.class1:visited {
 a.class1:hover {
     text-decoration: none;
     cursor: pointer;
-    color: #72d0ce;
+    color: #228B22;
 }
 
 a.class1:active {
@@ -150,22 +150,22 @@ a.class2 {
 
 a.class2:link {
     text-decoration: none;
-    color: #72d0ce;
+    color: #228B22;
 }
 
 a.class2:visited {
     text-decoration: none;
-    color: #72d0ce;
+    color: #228B22;
 }
 
 a.class2:hover {
     text-decoration: none;
-    color: #72d0ce;
+    color: #228B22;
 }
 
 a.class2:active {
     text-decoration: none;
-    color: #72d0ce;
+    color: #228B22;
 }
 
 .home {
